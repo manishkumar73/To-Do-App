@@ -47,12 +47,9 @@ INSTALLED_APPS = [
      #third party
 
      #own
+     'todo',
+
      
-
-     'accounts.apps.AccountsConfig',
-     'django_filters',
-
-     'storages',
 
      
      
