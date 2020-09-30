@@ -47,12 +47,7 @@ INSTALLED_APPS = [
      #third party
 
      #own
-     'TestPlayers',
-     't20_players',
-     'Blog',
-     'weather',
-     'todo',
-     'polls',
+     
 
      'accounts.apps.AccountsConfig',
      'django_filters',
