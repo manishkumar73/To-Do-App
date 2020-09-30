@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'pr5vs%w1#4$+oz4y+3-c5(x*$t@nltxpovu!6q979o@#ynb_)d'
+SECRET_KEY = '****************************************'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
@@ -105,10 +105,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'demo_1',
-        'USER': 'manish',
-        'PASSWORD': 'Manish88',
-        'HOST' : 'database-1.cajf4rxmxlsc.us-east-2.rds.amazonaws.com',
-        'PORT' : '5426'
+        'USER': '*******',
+        'PASSWORD': '*******',
+        'HOST' : '**********',
+        'PORT' : '******'
     }
 }
 '''
@@ -192,17 +192,17 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True 
-EMAIL_HOST_USER = 'princemanishmb@gmail.com'
-EMAIL_HOST_PASSWORD = 'Manish123_123'
+EMAIL_HOST_USER = '**********'
+EMAIL_HOST_PASSWORD = '**************'
 
 
 #S3 BUCKETS CONFIG
 
 
 
-AWS_ACCESS_KEY_ID = 'AKIATYBEM6GNHRCJUCQP'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'manish73'
+AWS_ACCESS_KEY_ID = '************'
+AWS_SECRET_ACCESS_KEY = '************'
+AWS_STORAGE_BUCKET_NAME = '*********'
 
 
 AWS_S3_FILE_OVERWRITE = False
